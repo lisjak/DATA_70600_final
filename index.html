@@ -1,25 +1,26 @@
-<!doctype HTML>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="12_styles.css">
-    <title>My JavaScripting Master's Student Project</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DATA 70600 Final Project</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
+
   <body>
-    <div class="formatText">
-      <h2><a href="poem.html">Walt Whitman's <em>Broadway</em></a></h2>
-      <h2><a href="12_nyc-data.html">NYC Neighborhoods</a></h2>
-      <h1 id="noShow">This is my project!</h1>
-      <h1>Bad Jokes Galore!</h1>
-      <button id="toggleJokes">Toggle Jokes</button>
-        <section id="joke">     
-          <p>Q: Why did the programmer quit his job?
-          A: Because he didn't get arrays.</p>
-          <p>Q: What's the difference between an academic and a genie?
-          A: One grants wishes, the other wishes for grants.</p>
-        </section>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="12_script.js"></script>
+    <div id="map"></div>
   </body>
+  <script src="script.js"></script>
 </html>
