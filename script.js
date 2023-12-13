@@ -1,3 +1,20 @@
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+        console.log('hello collapse')
+    });
+}
+
+
 console.log('loaded');
 
 let map = L.map('map').setView([40.7, -74.0], 12);
@@ -170,7 +187,7 @@ let sealevel2020s = axios('./data/sealevel_2020s.geojson').then((resp) => {
                     // case 'VE':
                     // case 'AO':
                     return {
-                        color: 'red',
+                        color: 'blue',
                         weight: 0,
                         lineCap: 'square',
                         smoothFactor: 1,
@@ -195,7 +212,7 @@ var sealevel2050s = axios('./data/sealevel_2050s.geojson').then((resp) => {
                     //     // case 'AO':
                     //     case '':
                     return {
-                        color: 'orange',
+                        color: 'cyan',
                         weight: 0,
                         lineCap: 'square',
                         smoothFactor: 1,
@@ -235,7 +252,7 @@ var housing = axios('./data/nycha.geojson').then((resp) => {
                         //         //     // case 'AO':
                         //         //     case '':
                         return {
-                            color: 'red',
+                            color: 'blue',
                             // weight: 0,
                             // lineCap: "square",
                             // smoothFactor: 1
@@ -269,36 +286,6 @@ var housing = axios('./data/nycha.geojson').then((resp) => {
 // },
 // }).addTo(nycMap);
 
-var centroid = axios('./data/centroid.geojson').then((resp) => {
-    console.log(resp.data);
-    L.geoJSON(resp.data, {
-            style: function(feature) {
-                {
-                    // switch (feature.properties.fld_zone) {
-                    //     // case 'AE':
-                    //     // case 'VE':
-                    //     // case 'AO':
-                    // case '':
-                    //     return { color: "transparent", weight: 0 };
-                    // case 'AE':
-                    // case 'VE':
-                    // case 'AO':
-                    return {
-                        color: 'green',
-                        // weight: 0,
-                        // lineCap: "square",
-                        // smoothFactor: 1,
-                        // opacity: 0.9
-                    };
-                    // }
-                }
-            },
-        })
-        .addTo(map)
-        .bringToBack();
-});
-
-console.log('green');
 
 // axios('https://raw.githubusercontent.com/Willjfield/FOSS-for-WebGIS/main/6-21/site/data/subways.geojson').then(resp => {
 //     console.log(resp.data)
@@ -447,14 +434,14 @@ L.control
                 label: 'Sea Levels 2020s',
                 type: 'polygon',
                 sides: 4,
-                fillColor: '#FF0000',
+                fillColor: 'blue',
                 layers: [sealevel2020s],
             },
             {
                 label: 'Sea Levels 2050s',
                 type: 'polygon',
                 sides: 4,
-                fillColor: 'orange',
+                fillColor: 'cyan',
                 layers: [sealevel2050s],
             },
             {

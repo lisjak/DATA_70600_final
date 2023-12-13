@@ -1,11 +1,117 @@
-#map {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: pink;
-}
+    #map {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        background-color: white;
+        color: black;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        font-size: 0.75vw;
+        margin: 0;
+        overflow-y: hidden;
+    }
+    
+    #box {
+        background-color: white;
+        position: absolute;
+        border: 3px solid blue;
+        box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.5);
+        z-index: 999;
+    width: 25%;
+        margin: 1%;
+        padding: 2%;
+    }
+    
+    #footer {
+        background-color: white;
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        bottom: 0;
+        left: 0;
+        padding-left: 0.5%;
+        padding-top: 0.25%;
+        border-top: 3px solid blue;
+    }
+    /* margin: 1%; */
+    
+    h1 {
+        font-size: 5.5vw;
+        font-weight: bold;
+        letter-spacing: -2px;
+        font-family: 'Handjet';
+        color: blue;
+        margin-bottom: -5%;
+        margin-top: -5%;
+    }
+    
+    h2 {
+        font-size: 2vw;
+        font-weight: bold;
+        letter-spacing: -2px;
+        font-family: 'Handjet';
+        color: blue;
+    }
+    
+    a {
+        color: blue;
+        transition: 0.5s;
+    }
+    
+    a:hover {
+        color: white;
+        transition: 0.5s;
+    }
+    
+    .collapsible {
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: 1px solid white;
+        border-top: 0px;
+        text-align: left;
+        outline: none;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1vh;
+    }
+    
+    .active,
+    .collapsible:hover {
+        background-color: mediumblue;
+    }
+    
+    .content {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+    
+    .collapsible:after {
+        content: '+';
+        /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: white;
+        float: right;
+        margin-left: 5px;
+    }
+    
+    .active:after {
+        content: "-";
+        color: white;
+        /* Unicode character for "minus" sign (-) */
+    }
