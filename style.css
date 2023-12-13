@@ -15,7 +15,7 @@
         color: black;
         font-family: 'IBM Plex Mono', monospace;
         font-weight: 400;
-        font-size: 1vh;
+          font-size: 0.75vw;
         margin: 0;
         overflow-y: hidden;
     }
@@ -29,6 +29,8 @@
         width: 25%;
         margin: 1%;
         padding: 2%;
+        overflow: scroll;
+        max-height: 50%;
     }
     
     #footer {
@@ -38,24 +40,27 @@
         z-index: 999;
         bottom: 0;
         left: 0;
-        padding: 0.5%;
+        /* padding: 0.5%; */
+                padding-left: 0.5%;
+        padding-top: 0.25%;
+        border-top: 3px solid blue;
     }
     /* margin: 1%; */
     
     h1 {
-        font-size: 8vh;
+        font-size: 5.5vw;
         font-weight: bold;
         letter-spacing: -2px;
         font-family: 'Handjet';
         color: blue;
-        margin-bottom: -10%;
+        margin-bottom: -5%;
         margin-top: -5%;
     }
     
     h2 {
-        font-size: 3vh;
+        font-size: 2vw;
         font-weight: bold;
-        letter-spacing: -2px;
+         /* letter-spacing: -2px; */
         font-family: 'Handjet';
         color: blue;
     }
@@ -66,7 +71,7 @@
     }
     
     a:hover {
-        color: white;
+        color: mediumblue;
         transition: 0.5s;
     }
     
@@ -79,15 +84,17 @@
         border: 1px solid white;
         border-top: 0px;
         text-align: left;
-        outline: none;
         font-family: 'IBM Plex Mono', monospace;
         font-weight: 400;
-        font-size: 1vh;
+        font-size: 1.5vh;
+        font-weight: bold;
+        text-transform: uppercase;
     }
     
     .active,
     .collapsible:hover {
-        background-color: #ccc;
+        background-color: mediumblue;
+        
     }
     
     .content {
@@ -100,7 +107,6 @@
     
     .collapsible:after {
         content: '+';
-        /* Unicode character for "plus" sign (+) */
         font-size: 13px;
         color: white;
         float: right;
@@ -110,14 +116,7 @@
     .active:after {
         content: "-";
         color: white;
-        /* Unicode character for "minus" sign (-) */
-    }   content: "-";
-        color: white;
-        /* Unicode character for "minus" sign (-) */
-    }
-
-    img.huechange { filter: hue-rotate(120deg); }
-
+    } 
 
     .leaflet-control-zoom-in,
 .leaflet-control-zoom-out {
