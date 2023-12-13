@@ -17,7 +17,11 @@ for (i = 0; i < coll.length; i++) {
 
 console.log('loaded');
 
-let map = L.map('map').setView([40.7, -74.0], 12);
+let map = L.map('map', {
+  zoomControl: true
+}).setView([40.7, -74.0], 12)
+
+map.zoomControl.setPosition('topright');
 
 let basemap_urls = {
     toner: 'https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.png',
@@ -395,31 +399,31 @@ var housing = axios('./data/nycha.geojson').then((resp) => {
 //     }).addTo(map).bringToBack();
 // })
 
-var line1 = turf.lineString([
-    [115, -35],
-    [125, -30],
-    [135, -30],
-    [145, -35],
-]);
-var line2 = turf.lineString([
-    [115, -25],
-    [125, -30],
-    [135, -30],
-    [145, -25],
-]);
+// var line1 = turf.lineString([
+//     [115, -35],
+//     [125, -30],
+//     [135, -30],
+//     [145, -35],
+// ]);
+// var line2 = turf.lineString([
+//     [115, -25],
+//     [125, -30],
+//     [135, -30],
+//     [145, -25],
+// ]);
 
-var overlapping1 = turf.lineOverlap(line1, line2);
+// var overlapping1 = turf.lineOverlap(line1, line2);
 
-L.geoJSON(overlapping1, {
-    // style: function(feature) {
-    //     switch (feature.properties.party) {
-    //         case 'Republican':
-    //             return { color: "#ff0000" };
-    //         case 'Democrat':
-    //             return { color: "#0000ff" };
-    //     }
-    // }
-}).addTo(map);
+// L.geoJSON(overlapping1, {
+//     // style: function(feature) {
+//     //     switch (feature.properties.party) {
+//     //         case 'Republican':
+//     //             return { color: "#ff0000" };
+//     //         case 'Democrat':
+//     //             return { color: "#0000ff" };
+//     //     }
+//     // }
+// }).addTo(map);
 
 console.log('end000');
 
@@ -489,37 +493,65 @@ console.log('end0');
 // console.log('end3')
 // console.log('end3')
 
-L.control
-    .Legend({
-        position: 'bottomleft',
-        collapsed: false,
-        symbolWidth: 50,
-        legends: [{
-                label: 'Sea Levels 2020s',
-                type: 'polygon',
-                sides: 4,
-                fillColor: 'blue',
-                layers: [sealevel2020s],
-            },
-            {
-                label: 'Sea Levels 2050s',
-                type: 'polygon',
-                sides: 4,
-                fillColor: 'cyan',
-                layers: [sealevel2050s],
-            },
-            {
-                label: 'NYCHA Housing',
-                type: 'polyline',
-                weight: 4,
-                color: '#FF0000',
-                fillColor: '#FF0000',
-                layers: [housing],
-                inactive: true,
-            },
-        ],
-    })
-    .addTo(map);
+// var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
+
+
+// var baseLayers = {
+//     "Mapbox": mapbox,
+//     "OpenStreetMap": osm
+// };
+
+// var overlays = {
+//     "Marker": marker,
+//     "Roads": roadsLayer
+// };
+
+// L.control.layers(baseLayers, overlays).addTo(map);
+
+
+
+
+
+
+// var intersection = turf.lineIntersect(nychaHousing.toGeoJSON(), sealevel2020s.toGeoJSON());
+// var intersectionCoord = intersection.features[0].geometry.coordinates;
+
+// intersectionCoord
+// console.log('end-intersect')
+
+//===========================================================================================
+
+// L.control
+//     .Legend({
+//         position: 'bottomleft',
+//         collapsed: false,
+//         symbolWidth: 50,
+//         legends: [{
+//                 label: 'Sea Levels 2020s',
+//                 type: 'polygon',
+//                 sides: 4,
+//                 fillColor: 'blue',
+//                 layers: [sealevel2020s],
+//             },
+//             {
+//                 label: 'Sea Levels 2050s',
+//                 type: 'polygon',
+//                 sides: 4,
+//                 fillColor: 'cyan',
+//                 layers: [sealevel2050s],
+//             },
+//             {
+//                 label: 'NYCHA Housing',
+//                 type: 'polyline',
+//                 weight: 4,
+//                 color: '#FF0000',
+//                 fillColor: '#FF0000',
+//                 layers: [housing],
+//                 inactive: true,
+//             },
+//         ],
+//     })
+//     .addTo(map);
 
 (function(factory, window) {
     // define an AMD module that relies on 'leaflet'
@@ -902,52 +934,54 @@ L.control
     };
 }, window);
 
-// L.control.Legend({
-//     position: "bottomleft",
-//     collapsed: false,
-//     symbolWidth: 50,
-//     legends: [{
-//             label: "Sea Levels 2020s",
-//             type: "polygon",
-//             sides: 4,
-//             fillColor: "#FF0000",
-//             layers: [sealevel2020s]
-//         },
-//         {
-//             label: "Sea Levels 2050s",
-//             type: "polygon",
-//             sides: 4,
-//             fillColor: "orange",
-//             layers: [sealevel2050s]
-//         },
-//         {
-//             label: "NYCHA Housing",
-//             type: "polyline",
-//             weight: 4,
-//             color: "#FF0000",
-//             fillColor: "#FF0000",
-//             layers: [housing],
-//             inactive: true
-//         }
-//     ]
-// }).addTo(map);
-//     ]
-// }).addTo(map);
-// }).addTo(map);
-// }).addTo(map);
-//     ]
-// }).addTo(map);yers: [housing],
-//             inactive: true
-//         }
-//     ]
-// }).addTo(map);
-//     ]
-// }).addTo(map);To(map);
+L.control
+    .Legend({
+        position: 'bottomleft',
+        collapsed: false,
+        symbolWidth: 50,
+        legends: [{
+                label: 'Sea Levels 2020s',
+                type: 'polygon',
+                sides: 4,
+                fillColor: 'blue',
+                layers: [sealevel2020s],
+            },
+            {
+                label: 'Sea Levels 2050s',
+                type: 'polygon',
+                sides: 4,
+                fillColor: 'cyan',
+                layers: [sealevel2050s],
+            },
+            {
+                label: 'NYCHA Housing Polygon',
+                type: 'polyline',
+                weight: 2,
+                color: 'black',
+                fillColor: 'black',
+                layers: [housing],
+                // inactive: true,
+            },
+                        {
+                label: 'NYCHA Housing',
+                type: 'circle',
+                weight: 2,
+                color: 'black',
+                fillColor: 'grey',
+                layers: [housing],
+                // inactive: true,
+            },
+                        {
+                label: 'NYCHA Housing - At Risk',
+                type: 'circle',
+                weight: 2,
+                color: 'white',
+                fillColor: 'blue',
+                layers: [housing],
+                // inactive: true,
+            },
+        ],
+    })
+    .addTo(map);
 
-
-
-var intersection = turf.lineIntersect(nychaHousing.toGeoJSON(), sealevel2020s.toGeoJSON());
-var intersectionCoord = intersection.features[0].geometry.coordinates;
-
-intersectionCoord
-console.log('end-intersect')
+console.log('end final')

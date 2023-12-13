@@ -1,15 +1,47 @@
+L.control
+    .Legend({
+        position: 'bottomleft',
+        collapsed: false,
+        symbolWidth: 50,
+        legends: [{
+                label: 'Sea Levels 2020s',
+                type: 'polygon',
+                sides: 4,
+                fillColor: 'blue',
+                layers: [sealevel2020s],
+            },
+            {
+                label: 'Sea Levels 2050s',
+                type: 'polygon',
+                sides: 4,
+                fillColor: 'cyan',
+                layers: [sealevel2050s],
+            },
+            {
+                label: 'NYCHA Housing',
+                type: 'polyline',
+                weight: 4,
+                color: '#FF0000',
+                fillColor: '#FF0000',
+                layers: [housing],
+                inactive: true,
+            },
+        ],
+    })
+    .addTo(map);
+
 (function(factory, window) {
     // define an AMD module that relies on 'leaflet'
-    if (typeof define === "function" && define.amd) {
-        define(["leaflet"], factory);
+    if (typeof define === 'function' && define.amd) {
+        define(['leaflet'], factory);
 
         // define a Common JS module that relies on 'leaflet'
-    } else if (typeof exports === "object") {
-        module.exports = factory(require("leaflet"));
+    } else if (typeof exports === 'object') {
+        module.exports = factory(require('leaflet'));
     }
 
     // attach your plugin to the global 'L' variable
-    if (typeof window !== "undefined" && window.L) {
+    if (typeof window !== 'undefined' && window.L) {
         factory(L);
     }
 })(function(L) {
@@ -35,7 +67,7 @@
         }
 
         _buildCanvas() {
-            var canvas = L.DomUtil.create("canvas", null, this._container);
+            var canvas = L.DomUtil.create('canvas', null, this._container);
             canvas.height = this._control.options.symbolHeight;
             canvas.width = this._control.options.symbolWidth;
             return canvas;
@@ -44,11 +76,11 @@
         _drawSymbol() {}
 
         _style() {
-            var ctx = (this._ctx = this._canvas.getContext("2d"));
+            var ctx = (this._ctx = this._canvas.getContext('2d'));
             if (this._legend.fill || this._legend.fillColor) {
                 ctx.globalAlpha = this._legend.fillOpacity || 1;
                 ctx.fillStyle = this._legend.fillColor || this._legend.color;
-                ctx.fill(this._legend.fillRule || "evenodd");
+                ctx.fill(this._legend.fillRule || 'evenodd');
             }
 
             if (this._legend.stroke || this._legend.color) {
@@ -57,9 +89,9 @@
                 }
                 ctx.globalAlpha = this._legend.opacity || 1.0;
                 ctx.lineWidth = this._legend.weight || 2;
-                ctx.strokeStyle = this._legend.color || "#3388ff";
-                ctx.lineCap = this._legend.lineCap || "round";
-                ctx.lineJoin = this._legend.lineJoin || "round";
+                ctx.strokeStyle = this._legend.color || '#3388ff';
+                ctx.lineCap = this._legend.lineCap || 'round';
+                ctx.lineJoin = this._legend.lineJoin || 'round';
                 ctx.stroke();
             }
         }
@@ -71,7 +103,7 @@
 
     class CircleSymbol extends GeometricSymbol {
         _drawSymbol() {
-            var ctx = (this._ctx = this._canvas.getContext("2d"));
+            var ctx = (this._ctx = this._canvas.getContext('2d'));
 
             var legend = this._legend;
             var linelWeight = legend.weight || 3;
@@ -90,7 +122,7 @@
 
     class PolylineSymbol extends GeometricSymbol {
         _drawSymbol() {
-            var ctx = (this._ctx = this._canvas.getContext("2d"));
+            var ctx = (this._ctx = this._canvas.getContext('2d'));
 
             var x1 = 0;
             var x2 = this._control.options.symbolWidth;
@@ -104,7 +136,7 @@
 
     class RectangleSymbol extends GeometricSymbol {
         _drawSymbol() {
-            var ctx = (this._ctx = this._canvas.getContext("2d"));
+            var ctx = (this._ctx = this._canvas.getContext('2d'));
             var linelWeight = this._legend.weight || 3;
 
             var x0 = this._control.options.symbolWidth / 2;
@@ -128,7 +160,7 @@
      */
     class PolygonSymbol extends GeometricSymbol {
         _drawSymbol() {
-            var ctx = (this._ctx = this._canvas.getContext("2d"));
+            var ctx = (this._ctx = this._canvas.getContext('2d'));
 
             var linelWeight = this._legend.weight || 3;
             var x0 = this._control.options.symbolWidth / 2;
@@ -159,7 +191,7 @@
             var imageLoaded = () => {
                 this.rescale();
             };
-            var img = L.DomUtil.create("img", null, this._container);
+            var img = L.DomUtil.create('img', null, this._container);
             this._img = img;
             img.onload = imageLoaded;
             img.src = this._legend.url;
@@ -168,7 +200,10 @@
         rescale() {
             if (this._img) {
                 var _options = this._control.options;
-                if (this._img.width > _options.symbolWidth || this._img.height > _options.symbolHeight) {
+                if (
+                    this._img.width > _options.symbolWidth ||
+                    this._img.height > _options.symbolHeight
+                ) {
                     var imgW = this._img.width;
                     var imgH = this._img.height;
                     var scaleW = _options.symbolWidth / imgW;
@@ -190,15 +225,15 @@
             var shiftX = containerCenterX - imageCenterX;
             var shiftY = containerCenterY - imageCenterY;
 
-            this._img.style.left = shiftX.toString() + "px";
-            this._img.style.top = shiftY.toString() + "px";
+            this._img.style.left = shiftX.toString() + 'px';
+            this._img.style.top = shiftY.toString() + 'px';
         }
     }
 
     L.Control.Legend = L.Control.extend({
         options: {
-            position: "topleft",
-            title: "Layers Legend",
+            position: 'topleft',
+            title: 'Layers Legend',
             legends: [],
             symbolWidth: 24,
             symbolHeight: 24,
@@ -220,23 +255,43 @@
         },
 
         _buildContainer: function() {
-            this._container = L.DomUtil.create("div", "leaflet-legend leaflet-bar leaflet-control");
-            this._container.style.backgroundColor = "rgba(255,255,255, " + this.options.opacity + ")";
+            this._container = L.DomUtil.create(
+                'div',
+                'leaflet-legend leaflet-bar leaflet-control'
+            );
+            this._container.style.backgroundColor =
+                'rgba(255,255,255, ' + this.options.opacity + ')';
 
-            this._contents = L.DomUtil.create("section", "leaflet-legend-contents", this._container);
-            this._link = L.DomUtil.create("a", "leaflet-legend-toggle", this._container);
-            this._link.title = "Layers Legend";
-            this._link.href = "#";
+            this._contents = L.DomUtil.create(
+                'section',
+                'leaflet-legend-contents',
+                this._container
+            );
+            this._link = L.DomUtil.create(
+                'a',
+                'leaflet-legend-toggle',
+                this._container
+            );
+            this._link.title = 'Layers Legend';
+            this._link.href = '#';
 
-            var title = L.DomUtil.create("h3", "leaflet-legend-title", this._contents);
-            title.innerText = this.options.title || "Layers Legend";
+            var title = L.DomUtil.create(
+                'h3',
+                'leaflet-legend-title',
+                this._contents
+            );
+            title.innerText = this.options.title || 'Layers Legend';
 
             var len = this.options.legends.length;
             var colSize = Math.ceil(len / this.options.column);
             var legendContainer = this._contents;
             for (var i = 0; i < len; i++) {
                 if (i % colSize == 0) {
-                    legendContainer = L.DomUtil.create("div", "leaflet-legend-column", this._contents);
+                    legendContainer = L.DomUtil.create(
+                        'div',
+                        'leaflet-legend-column',
+                        this._contents
+                    );
                 }
                 var legend = this.options.legends[i];
                 this._buildLegendItems(legendContainer, legend);
@@ -244,22 +299,26 @@
         },
 
         _buildLegendItems: function(legendContainer, legend) {
-            var legendItemDiv = L.DomUtil.create("div", "leaflet-legend-item", legendContainer);
+            var legendItemDiv = L.DomUtil.create(
+                'div',
+                'leaflet-legend-item',
+                legendContainer
+            );
             if (legend.inactive) {
-                L.DomUtil.addClass(legendItemDiv, "leaflet-legend-item-inactive");
+                L.DomUtil.addClass(legendItemDiv, 'leaflet-legend-item-inactive');
             }
-            var symbolContainer = L.DomUtil.create("i", null, legendItemDiv);
+            var symbolContainer = L.DomUtil.create('i', null, legendItemDiv);
 
             var legendSymbol;
-            if (legend.type === "image") {
+            if (legend.type === 'image') {
                 legendSymbol = new ImageSymbol(this, symbolContainer, legend);
-            } else if (legend.type === "circle") {
+            } else if (legend.type === 'circle') {
                 legendSymbol = new CircleSymbol(this, symbolContainer, legend);
-            } else if (legend.type === "rectangle") {
+            } else if (legend.type === 'rectangle') {
                 legendSymbol = new RectangleSymbol(this, symbolContainer, legend);
-            } else if (legend.type === "polygon") {
+            } else if (legend.type === 'polygon') {
                 legendSymbol = new PolygonSymbol(this, symbolContainer, legend);
-            } else if (legend.type === "polyline") {
+            } else if (legend.type === 'polyline') {
                 legendSymbol = new PolylineSymbol(this, symbolContainer, legend);
             } else {
                 L.DomUtil.remove(legendItemDiv);
@@ -267,16 +326,16 @@
             }
             this._legendSymbols.push(legendSymbol);
 
-            symbolContainer.style.width = this.options.symbolWidth + "px";
-            symbolContainer.style.height = this.options.symbolHeight + "px";
+            symbolContainer.style.width = this.options.symbolWidth + 'px';
+            symbolContainer.style.height = this.options.symbolHeight + 'px';
 
-            var legendLabel = L.DomUtil.create("span", null, legendItemDiv);
+            var legendLabel = L.DomUtil.create('span', null, legendItemDiv);
             legendLabel.innerText = legend.label;
             if (legend.layers) {
-                L.DomUtil.addClass(legendItemDiv, "leaflet-legend-item-clickable");
+                L.DomUtil.addClass(legendItemDiv, 'leaflet-legend-item-clickable');
                 L.DomEvent.on(
                     legendItemDiv,
-                    "click",
+                    'click',
                     function() {
                         this._toggleLegend.call(this, legendItemDiv, legend.layers);
                     },
@@ -290,7 +349,7 @@
             L.DomEvent.disableScrollPropagation(this._container);
 
             if (this.options.collapsed) {
-                this._map.on("click", this.collapse, this);
+                this._map.on('click', this.collapse, this);
 
                 L.DomEvent.on(
                     this._container, {
@@ -305,8 +364,8 @@
         },
 
         _toggleLegend: function(legendDiv, layers) {
-            if (L.DomUtil.hasClass(legendDiv, "leaflet-legend-item-inactive")) {
-                L.DomUtil.removeClass(legendDiv, "leaflet-legend-item-inactive");
+            if (L.DomUtil.hasClass(legendDiv, 'leaflet-legend-item-inactive')) {
+                L.DomUtil.removeClass(legendDiv, 'leaflet-legend-item-inactive');
                 if (L.Util.isArray(layers)) {
                     for (var i = 0, len = layers.length; i < len; i++) {
                         this._map.addLayer(layers[i]);
@@ -315,7 +374,7 @@
                     this._map.addLayer(layers);
                 }
             } else {
-                L.DomUtil.addClass(legendDiv, "leaflet-legend-item-inactive");
+                L.DomUtil.addClass(legendDiv, 'leaflet-legend-item-inactive');
                 if (L.Util.isArray(layers)) {
                     for (var i = 0, len = layers.length; i < len; i++) {
                         this._map.removeLayer(layers[i]);
@@ -327,8 +386,8 @@
         },
 
         expand: function() {
-            this._link.style.display = "none";
-            L.DomUtil.addClass(this._container, "leaflet-legend-expanded");
+            this._link.style.display = 'none';
+            L.DomUtil.addClass(this._container, 'leaflet-legend-expanded');
             for (var legendSymbol of this._legendSymbols) {
                 legendSymbol.rescale();
             }
@@ -336,8 +395,8 @@
         },
 
         collapse: function() {
-            this._link.style.display = "block";
-            L.DomUtil.removeClass(this._container, "leaflet-legend-expanded");
+            this._link.style.display = 'block';
+            L.DomUtil.removeClass(this._container, 'leaflet-legend-expanded');
             return this;
         },
 

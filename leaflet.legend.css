@@ -1,9 +1,15 @@
 .leaflet-legend {
   background-color: white;
+  width: 25vw !important;
   padding: 4%;
   margin: 10%;
-  background-color: blue;
-  border: 5px solid blue;
+  margin-bottom: 10% !important;
+  border: 3px solid blue !important;
+  border-radius: 0px !important;
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.5) !important;
+          font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        font-size: 0.75vw;
 }
 
 .leaflet-legend-title {
@@ -13,13 +19,13 @@
 
 .leaflet-legend-column {
   float: left;
-  margin-left: 100px;
+  margin-left: 10px;
 }
 
 .leaflet-legend-item {
   display: table;
   /* margin: 2px 0; */
-  margin-right: 100px;
+  margin-right: 10px;
 }
 
 .leaflet-legend-item span {
@@ -76,7 +82,7 @@
 .leaflet-legend-expanded .leaflet-legend-contents {
   display: block;
   padding: 6px 15px 6px 6px;
-  background-color: silver;
+  /* background-color: silver; */
 }
 
 .leaflet-legend-contents img {

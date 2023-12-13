@@ -15,7 +15,7 @@
         color: black;
         font-family: 'IBM Plex Mono', monospace;
         font-weight: 400;
-        font-size: 0.75vw;
+        font-size: 1vh;
         margin: 0;
         overflow-y: hidden;
     }
@@ -26,7 +26,7 @@
         border: 3px solid blue;
         box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.5);
         z-index: 999;
-    width: 25%;
+        width: 25%;
         margin: 1%;
         padding: 2%;
     }
@@ -38,26 +38,24 @@
         z-index: 999;
         bottom: 0;
         left: 0;
-        padding-left: 0.5%;
-        padding-top: 0.25%;
-        border-top: 3px solid blue;
+        padding: 0.5%;
     }
     /* margin: 1%; */
     
     h1 {
-        font-size: 5.5vw;
+        font-size: 8vh;
         font-weight: bold;
         letter-spacing: -2px;
         font-family: 'Handjet';
         color: blue;
-        margin-bottom: -5%;
+        margin-bottom: -10%;
         margin-top: -5%;
     }
     
     h2 {
-        font-size: 2vw;
+        font-size: 3vh;
         font-weight: bold;
-        /* letter-spacing: -2px; */
+        letter-spacing: -2px;
         font-family: 'Handjet';
         color: blue;
     }
@@ -83,14 +81,13 @@
         text-align: left;
         outline: none;
         font-family: 'IBM Plex Mono', monospace;
-        font-weight: bold;
-        text-transform: uppercase;
+        font-weight: 400;
         font-size: 1vh;
     }
     
     .active,
     .collapsible:hover {
-        background-color: mediumblue;
+        background-color: #ccc;
     }
     
     .content {
@@ -114,6 +111,23 @@
         content: "-";
         color: white;
         /* Unicode character for "minus" sign (-) */
+    }   content: "-";
+        color: white;
+        /* Unicode character for "minus" sign (-) */
     }
 
     img.huechange { filter: hue-rotate(120deg); }
+
+
+    .leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  font: bold 18px 'Lucida Console', Monaco, monospace;
+  text-indent: 1px;
+  border: 3px solid blue !important;
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 0px !important;
+  }
+
+  .leaflet-control-zoom-out {
+  border-top: 0px solid blue !important;
+  }
