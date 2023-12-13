@@ -57,7 +57,7 @@
     h2 {
         font-size: 2vw;
         font-weight: bold;
-        letter-spacing: -2px;
+        /* letter-spacing: -2px; */
         font-family: 'Handjet';
         color: blue;
     }
