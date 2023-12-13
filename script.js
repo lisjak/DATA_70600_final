@@ -316,7 +316,7 @@ var housing = axios('./data/nycha.geojson').then((resp) => {
                         //         //     // case 'AO':
                         //         //     case '':
                         return {
-                            color: 'blue',
+                            color: 'black',
                             // weight: 0,
                             // lineCap: "square",
                             // smoothFactor: 1
