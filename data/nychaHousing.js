@@ -13279,7 +13279,7 @@ const nychaHousing = {
       40.8379023412616
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CAMPOS PLAZA II",
+    "DEVELOPMENT": "CAMPOS PLAZA II","FLOODRISK": "YES",
     "TDS #": 286,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -13310,7 +13310,7 @@ const nychaHousing = {
       40.7280288864461
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CAMPOS PLAZA II",
+    "DEVELOPMENT": "CAMPOS PLAZA II","FLOODRISK": "YES",
     "TDS #": 286,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -13341,7 +13341,7 @@ const nychaHousing = {
       40.7282895484604
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CAMPOS PLAZA II",
+    "DEVELOPMENT": "CAMPOS PLAZA II","FLOODRISK": "YES",
     "TDS #": 286,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -21711,7 +21711,7 @@ const nychaHousing = {
       40.8186467341294
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CLINTON",
+    "DEVELOPMENT": "CLINTON","FLOODRISK": "YES",
     "TDS #": 123,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -21742,7 +21742,7 @@ const nychaHousing = {
       40.7949760869055
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CLINTON",
+    "DEVELOPMENT": "CLINTON","FLOODRISK": "YES",
     "TDS #": 123,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -21773,7 +21773,7 @@ const nychaHousing = {
       40.794534489401
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CLINTON",
+    "DEVELOPMENT": "CLINTON","FLOODRISK": "YES",
     "TDS #": 123,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -21804,7 +21804,7 @@ const nychaHousing = {
       40.7939634438691
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CLINTON",
+    "DEVELOPMENT": "CLINTON","FLOODRISK": "YES",
     "TDS #": 123,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -21835,7 +21835,7 @@ const nychaHousing = {
       40.7944097083935
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CLINTON",
+    "DEVELOPMENT": "CLINTON","FLOODRISK": "YES",
     "TDS #": 123,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -21866,7 +21866,7 @@ const nychaHousing = {
       40.7917709052634
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CLINTON",
+    "DEVELOPMENT": "CLINTON","FLOODRISK": "YES",
     "TDS #": 123,
     "BUILDING #": 6,
     "BOROUGH": "MANHATTAN",
@@ -27539,7 +27539,7 @@ const nychaHousing = {
       40.6670509217458
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -27570,7 +27570,7 @@ const nychaHousing = {
       40.788457547871
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -27601,7 +27601,7 @@ const nychaHousing = {
       40.7883382740896
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -27632,7 +27632,7 @@ const nychaHousing = {
       40.7874871091533
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -27663,7 +27663,7 @@ const nychaHousing = {
       40.7879003663752
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -27694,7 +27694,7 @@ const nychaHousing = {
       40.7880709527914
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -27725,7 +27725,7 @@ const nychaHousing = {
       40.7878318004849
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -27756,7 +27756,7 @@ const nychaHousing = {
       40.7879397083436
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -27787,7 +27787,7 @@ const nychaHousing = {
       40.7881834536605
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -27818,7 +27818,7 @@ const nychaHousing = {
       40.7882113562882
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -27849,7 +27849,7 @@ const nychaHousing = {
       40.7879991532696
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 6,
     "BOROUGH": "MANHATTAN",
@@ -27880,7 +27880,7 @@ const nychaHousing = {
       40.7872566391474
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 6,
     "BOROUGH": "MANHATTAN",
@@ -27911,7 +27911,7 @@ const nychaHousing = {
       40.7870542875278
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 6,
     "BOROUGH": "MANHATTAN",
@@ -27942,7 +27942,7 @@ const nychaHousing = {
       40.7871157079263
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 6,
     "BOROUGH": "MANHATTAN",
@@ -27973,7 +27973,7 @@ const nychaHousing = {
       40.786839748754
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 7,
     "BOROUGH": "MANHATTAN",
@@ -28004,7 +28004,7 @@ const nychaHousing = {
       40.7871066368494
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 7,
     "BOROUGH": "MANHATTAN",
@@ -28035,7 +28035,7 @@ const nychaHousing = {
       40.7873503811382
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 7,
     "BOROUGH": "MANHATTAN",
@@ -28066,7 +28066,7 @@ const nychaHousing = {
       40.7873107724395
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 7,
     "BOROUGH": "MANHATTAN",
@@ -28097,7 +28097,7 @@ const nychaHousing = {
       40.7875269224245
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 8,
     "BOROUGH": "MANHATTAN",
@@ -28128,7 +28128,7 @@ const nychaHousing = {
       40.7877386730436
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 8,
     "BOROUGH": "MANHATTAN",
@@ -28159,7 +28159,7 @@ const nychaHousing = {
       40.7875317151054
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 8,
     "BOROUGH": "MANHATTAN",
@@ -28190,7 +28190,7 @@ const nychaHousing = {
       40.7874440742684
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 8,
     "BOROUGH": "MANHATTAN",
@@ -28221,7 +28221,7 @@ const nychaHousing = {
       40.7872003255801
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 9,
     "BOROUGH": "MANHATTAN",
@@ -28252,7 +28252,7 @@ const nychaHousing = {
       40.78787720977
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 9,
     "BOROUGH": "MANHATTAN",
@@ -28283,7 +28283,7 @@ const nychaHousing = {
       40.7876564573665
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 9,
     "BOROUGH": "MANHATTAN",
@@ -28314,7 +28314,7 @@ const nychaHousing = {
       40.787596823638
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 10,
     "BOROUGH": "MANHATTAN",
@@ -28345,7 +28345,7 @@ const nychaHousing = {
       40.786757068874
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 10,
     "BOROUGH": "MANHATTAN",
@@ -28376,7 +28376,7 @@ const nychaHousing = {
       40.7864489859494
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 10,
     "BOROUGH": "MANHATTAN",
@@ -28407,7 +28407,7 @@ const nychaHousing = {
       40.7865151124609
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER",
+    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
     "TDS #": 9,
     "BUILDING #": 10,
     "BOROUGH": "MANHATTAN",
@@ -52184,7 +52184,7 @@ const nychaHousing = {
       40.7082403263282
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "ISAACS",
+    "DEVELOPMENT": "ISAACS","FLOODRISK": "YES",
     "TDS #": 139,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -52215,7 +52215,7 @@ const nychaHousing = {
       40.7811246485053
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "ISAACS",
+    "DEVELOPMENT": "ISAACS","FLOODRISK": "YES",
     "TDS #": 139,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -52246,7 +52246,7 @@ const nychaHousing = {
       40.7820777113797
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "ISAACS",
+    "DEVELOPMENT": "ISAACS","FLOODRISK": "YES",
     "TDS #": 139,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -58477,7 +58477,7 @@ const nychaHousing = {
       40.7217077697583
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -58508,7 +58508,7 @@ const nychaHousing = {
       40.7233520422881
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -58539,7 +58539,7 @@ const nychaHousing = {
       40.7232968440498
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -58570,7 +58570,7 @@ const nychaHousing = {
       40.7232416424581
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -58601,7 +58601,7 @@ const nychaHousing = {
       40.7231910409015
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -58632,7 +58632,7 @@ const nychaHousing = {
       40.7234497210927
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -58663,7 +58663,7 @@ const nychaHousing = {
       40.7233807206753
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -58694,7 +58694,7 @@ const nychaHousing = {
       40.7233255198902
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -58725,7 +58725,7 @@ const nychaHousing = {
       40.7232749200451
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -58756,7 +58756,7 @@ const nychaHousing = {
       40.7232151229486
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -58787,7 +58787,7 @@ const nychaHousing = {
       40.7231691187992
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -58818,7 +58818,7 @@ const nychaHousing = {
       40.7230973024937
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -58849,7 +58849,7 @@ const nychaHousing = {
       40.7228779507976
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -58880,7 +58880,7 @@ const nychaHousing = {
       40.7229331518384
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -58911,7 +58911,7 @@ const nychaHousing = {
       40.7229929539175
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -58942,7 +58942,7 @@ const nychaHousing = {
       40.7230573540597
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -58973,7 +58973,7 @@ const nychaHousing = {
       40.7231171602872
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -59004,7 +59004,7 @@ const nychaHousing = {
       40.7231815609406
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -59035,7 +59035,7 @@ const nychaHousing = {
       40.7232505585107
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -59066,7 +59066,7 @@ const nychaHousing = {
       40.7233057627965
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -59097,7 +59097,7 @@ const nychaHousing = {
       40.7232414370599
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -59128,7 +59128,7 @@ const nychaHousing = {
       40.7231908637609
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -59159,7 +59159,7 @@ const nychaHousing = {
       40.7228598156511
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -59190,7 +59190,7 @@ const nychaHousing = {
       40.722801258785
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -59221,7 +59221,7 @@ const nychaHousing = {
       40.7227342528726
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -59252,7 +59252,7 @@ const nychaHousing = {
       40.7225414438578
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -59283,7 +59283,7 @@ const nychaHousing = {
       40.7224816399567
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -59314,7 +59314,7 @@ const nychaHousing = {
       40.7224126387194
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -59345,7 +59345,7 @@ const nychaHousing = {
       40.7223482373121
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -59376,7 +59376,7 @@ const nychaHousing = {
       40.7222884374107
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -59407,7 +59407,7 @@ const nychaHousing = {
       40.7222286338966
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE II",
+    "DEVELOPMENT": "LOWER EAST SIDE II","FLOODRISK": "YES",
     "TDS #": 337,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -59438,7 +59438,7 @@ const nychaHousing = {
       40.7221642310324
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE III",
+    "DEVELOPMENT": "LOWER EAST SIDE III","FLOODRISK": "YES",
     "TDS #": 364,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -59469,7 +59469,7 @@ const nychaHousing = {
       40.7246343209466
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LOWER EAST SIDE III",
+    "DEVELOPMENT": "LOWER EAST SIDE III","FLOODRISK": "YES",
     "TDS #": 364,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -78348,7 +78348,7 @@ const nychaHousing = {
       40.7532724992925
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WALD",
+    "DEVELOPMENT": "WALD","FLOODRISK": "YES",
     "TDS #": 23,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -85695,7 +85695,7 @@ const nychaHousing = {
       40.6440676637183
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -85726,7 +85726,7 @@ const nychaHousing = {
       40.7250278024024
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -85757,7 +85757,7 @@ const nychaHousing = {
       40.7251243484618
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -85788,7 +85788,7 @@ const nychaHousing = {
       40.7255671970611
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -85819,7 +85819,7 @@ const nychaHousing = {
       40.7258978996906
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -85850,7 +85850,7 @@ const nychaHousing = {
       40.7260033700511
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -85881,7 +85881,7 @@ const nychaHousing = {
       40.7259527603567
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -85912,7 +85912,7 @@ const nychaHousing = {
       40.7255281161482
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 6,
     "BOROUGH": "MANHATTAN",
@@ -85943,7 +85943,7 @@ const nychaHousing = {
       40.7251723037955
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 7,
     "BOROUGH": "MANHATTAN",
@@ -85974,7 +85974,7 @@ const nychaHousing = {
       40.7246389048694
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 7,
     "BOROUGH": "MANHATTAN",
@@ -86005,7 +86005,7 @@ const nychaHousing = {
       40.7245331676469
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 8,
     "BOROUGH": "MANHATTAN",
@@ -86036,7 +86036,7 @@ const nychaHousing = {
       40.7248972506356
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 9,
     "BOROUGH": "MANHATTAN",
@@ -86067,7 +86067,7 @@ const nychaHousing = {
       40.7244831477053
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 9,
     "BOROUGH": "MANHATTAN",
@@ -86098,7 +86098,7 @@ const nychaHousing = {
       40.7243912006777
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 10,
     "BOROUGH": "MANHATTAN",
@@ -86129,7 +86129,7 @@ const nychaHousing = {
       40.7237953834426
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 11,
     "BOROUGH": "MANHATTAN",
@@ -86160,7 +86160,7 @@ const nychaHousing = {
       40.7241155306337
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 12,
     "BOROUGH": "MANHATTAN",
@@ -86191,7 +86191,7 @@ const nychaHousing = {
       40.7240024766172
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 12,
     "BOROUGH": "MANHATTAN",
@@ -86222,7 +86222,7 @@ const nychaHousing = {
       40.7238921383088
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "RIIS",
+    "DEVELOPMENT": "RIIS","FLOODRISK": "YES",
     "TDS #": 18,
     "BUILDING #": 13,
     "BOROUGH": "MANHATTAN",
@@ -87617,7 +87617,7 @@ const nychaHousing = {
       40.811548547631
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WALD",
+    "DEVELOPMENT": "WALD","FLOODRISK": "YES",
     "TDS #": 23,
     "BUILDING #": 6,
     "BOROUGH": "MANHATTAN",
@@ -90624,7 +90624,7 @@ const nychaHousing = {
       40.7064558560137
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SMITH",
+    "DEVELOPMENT": "SMITH","FLOODRISK": "YES",
     "TDS #": 27,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -90655,7 +90655,7 @@ const nychaHousing = {
       40.7094939176396
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SMITH",
+    "DEVELOPMENT": "SMITH","FLOODRISK": "YES",
     "TDS #": 27,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -90686,7 +90686,7 @@ const nychaHousing = {
       40.7097688618169
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SMITH",
+    "DEVELOPMENT": "SMITH","FLOODRISK": "YES",
     "TDS #": 27,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -90717,7 +90717,7 @@ const nychaHousing = {
       40.7097715682493
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SMITH",
+    "DEVELOPMENT": "SMITH","FLOODRISK": "YES",
     "TDS #": 27,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -90748,7 +90748,7 @@ const nychaHousing = {
       40.7091184573717
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SMITH",
+    "DEVELOPMENT": "SMITH","FLOODRISK": "YES",
     "TDS #": 27,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -90779,7 +90779,7 @@ const nychaHousing = {
       40.7102085672196
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SMITH",
+    "DEVELOPMENT": "SMITH","FLOODRISK": "YES",
     "TDS #": 27,
     "BUILDING #": 6,
     "BOROUGH": "MANHATTAN",
@@ -90810,7 +90810,7 @@ const nychaHousing = {
       40.710109243239
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SMITH",
+    "DEVELOPMENT": "SMITH","FLOODRISK": "YES",
     "TDS #": 27,
     "BUILDING #": 7,
     "BOROUGH": "MANHATTAN",
@@ -90841,7 +90841,7 @@ const nychaHousing = {
       40.7106124298365
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SMITH",
+    "DEVELOPMENT": "SMITH","FLOODRISK": "YES",
     "TDS #": 27,
     "BUILDING #": 8,
     "BOROUGH": "MANHATTAN",
@@ -90872,7 +90872,7 @@ const nychaHousing = {
       40.7113175175803
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SMITH",
+    "DEVELOPMENT": "SMITH","FLOODRISK": "YES",
     "TDS #": 27,
     "BUILDING #": 9,
     "BOROUGH": "MANHATTAN",
@@ -90903,7 +90903,7 @@ const nychaHousing = {
       40.7107338011436
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SMITH",
+    "DEVELOPMENT": "SMITH","FLOODRISK": "YES",
     "TDS #": 27,
     "BUILDING #": 10,
     "BOROUGH": "MANHATTAN",
@@ -90934,7 +90934,7 @@ const nychaHousing = {
       40.7115321856857
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SMITH",
+    "DEVELOPMENT": "SMITH","FLOODRISK": "YES",
     "TDS #": 27,
     "BUILDING #": 11,
     "BOROUGH": "MANHATTAN",
@@ -90965,7 +90965,7 @@ const nychaHousing = {
       40.7115253597856
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SMITH",
+    "DEVELOPMENT": "SMITH","FLOODRISK": "YES",
     "TDS #": 27,
     "BUILDING #": 12,
     "BOROUGH": "MANHATTAN",
@@ -107395,7 +107395,7 @@ const nychaHousing = {
       40.8013701898858
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WALD",
+    "DEVELOPMENT": "WALD","FLOODRISK": "YES",
     "TDS #": 23,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -107426,7 +107426,7 @@ const nychaHousing = {
       40.7201627207184
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WALD",
+    "DEVELOPMENT": "WALD","FLOODRISK": "YES",
     "TDS #": 23,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -107457,7 +107457,7 @@ const nychaHousing = {
       40.720598698137
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WALD",
+    "DEVELOPMENT": "WALD","FLOODRISK": "YES",
     "TDS #": 23,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -107488,7 +107488,7 @@ const nychaHousing = {
       40.7210336995421
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WALD",
+    "DEVELOPMENT": "WALD","FLOODRISK": "YES",
     "TDS #": 23,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -107519,7 +107519,7 @@ const nychaHousing = {
       40.7214567300595
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WALD",
+    "DEVELOPMENT": "WALD","FLOODRISK": "YES",
     "TDS #": 23,
     "BUILDING #": 7,
     "BOROUGH": "MANHATTAN",
@@ -107550,7 +107550,7 @@ const nychaHousing = {
       40.7218106246929
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WALD",
+    "DEVELOPMENT": "WALD","FLOODRISK": "YES",
     "TDS #": 23,
     "BUILDING #": 8,
     "BOROUGH": "MANHATTAN",
@@ -107581,7 +107581,7 @@ const nychaHousing = {
       40.7204842292544
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WALD",
+    "DEVELOPMENT": "WALD","FLOODRISK": "YES",
     "TDS #": 23,
     "BUILDING #": 9,
     "BOROUGH": "MANHATTAN",
@@ -107612,7 +107612,7 @@ const nychaHousing = {
       40.7208256810498
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WALD",
+    "DEVELOPMENT": "WALD","FLOODRISK": "YES",
     "TDS #": 23,
     "BUILDING #": 10,
     "BOROUGH": "MANHATTAN",
@@ -107643,7 +107643,7 @@ const nychaHousing = {
       40.7215539206263
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WALD",
+    "DEVELOPMENT": "WALD","FLOODRISK": "YES",
     "TDS #": 23,
     "BUILDING #": 11,
     "BOROUGH": "MANHATTAN",
@@ -107674,7 +107674,7 @@ const nychaHousing = {
       40.7194343075292
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WALD",
+    "DEVELOPMENT": "WALD","FLOODRISK": "YES",
     "TDS #": 23,
     "BUILDING #": 12,
     "BOROUGH": "MANHATTAN",
@@ -107705,7 +107705,7 @@ const nychaHousing = {
       40.720086457203
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WALD",
+    "DEVELOPMENT": "WALD","FLOODRISK": "YES",
     "TDS #": 23,
     "BUILDING #": 13,
     "BOROUGH": "MANHATTAN",
@@ -107736,7 +107736,7 @@ const nychaHousing = {
       40.7192622477006
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WALD",
+    "DEVELOPMENT": "WALD","FLOODRISK": "YES",
     "TDS #": 23,
     "BUILDING #": 14,
     "BOROUGH": "MANHATTAN",
@@ -107767,7 +107767,7 @@ const nychaHousing = {
       40.7198700375489
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WALD",
+    "DEVELOPMENT": "WALD","FLOODRISK": "YES",
     "TDS #": 23,
     "BUILDING #": 15,
     "BOROUGH": "MANHATTAN",
@@ -107798,7 +107798,7 @@ const nychaHousing = {
       40.7205822483791
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WALD",
+    "DEVELOPMENT": "WALD","FLOODRISK": "YES",
     "TDS #": 23,
     "BUILDING #": 16,
     "BOROUGH": "MANHATTAN",
