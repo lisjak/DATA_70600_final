@@ -115,3 +115,5 @@
         color: white;
         /* Unicode character for "minus" sign (-) */
     }
+
+    img.huechange { filter: hue-rotate(120deg); }

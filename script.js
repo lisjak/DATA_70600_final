@@ -35,12 +35,12 @@ L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}
     attribution: '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/about" target="_blank">OpenStreetMap</a> contributors',
 }).addTo(map);
 
-const marker = L.marker([40.74860435246981, -73.98388941596163]).addTo(map);
+// const marker = L.marker([40.74860435246981, -73.98388941596163]).addTo(map);
 
-const message = 'hello!';
+// const message = 'hello!';
 
-marker.bindPopup(`<b>CUNY GC</b> ${message}`);
-//
+// marker.bindPopup(`<b>CUNY GC</b> ${message}`);
+// //
 //show each borough on the map
 // L.geoJSON(nyc, {
 //     onEachFeature: function(feature, layer) {
@@ -73,17 +73,81 @@ console.log(nyc.data)
 // }).addTo(map).bringToBack();
 
 
+// var marker = L.marker([y, x]).addTo(map);
 
 
+// let sealevel2020s = axios('./data/sealevel_2020s.geojson').then((resp) => {
+//     console.log(resp.data);
+//     L.geoJSON(resp.data, {
+//             style: function(feature) {
+//                 {
+//                     // switch (feature.properties.fld_zone) {
+//                     //     // case 'AE':
+//                     //     // case 'VE':
+//                     //     // case 'AO':
+//                     // case '':
+//                     //     return { color: "transparent", weight: 0 };
+//                     // case 'AE':
+//                     // case 'VE':
+//                     // case 'AO':
+//                     return {
+//                         color: 'blue',
+//                         weight: 0,
+//                         lineCap: 'square',
+//                         smoothFactor: 1,
+//                         opacity: 0.9,
+//                     };
+//                     // }
+//                 }
+//             },
+//         })
+//         .addTo(map)
+//         .bringToBack();
+// });
+
+var riskMarkerYes = {
+    radius: 10,
+    fillColor: "blue",
+    color: "white",
+    weight: 0.5,
+    opacity: 1,
+    fillOpacity: 0.8
+};
+
+
+var riskMarkerDefault = {
+    radius: 5,
+    fillColor: "grey",
+    color: "#000",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.8
+};
+
+
+L.geoJSON(nychaHousing, {
+        onEachFeature: function(feature, layer) {
+        layer.bindPopup(`<b>Housing development name:</b> ${feature.properties.DEVELOPMENT} <b>Address:</b> ${feature.properties.ADDRESS}`);
+    },
+ pointToLayer: function (feature, latlng) {
+    switch (feature.properties.FLOODRISK) {
+        case 'YES':
+         return L.circleMarker(latlng, riskMarkerYes);
+        default:
+            return L.circleMarker(latlng, riskMarkerDefault);
+    }
+    }
+}
+).addTo(map).bringToBack();
 
 
 // show each borough on the map
-L.geoJSON(nychaHousing, {
-    onEachFeature: function(feature, layer) {
-        layer.bindPopup(`Site name: ${feature.properties.DEVELOPMENT} <hr> Site address: ${feature.properties.ADDRESS}`);
-    }
-}).addTo(map);
-
+// L.geoJSON(nychaHousing, {
+//     onEachFeature: function(feature, layer) {
+//         layer.bindPopup(`Site name: ${feature.properties.DEVELOPMENT} <hr> Site address: ${feature.properties.ADDRESS}`);
+//     }
+// })
+//.addTo(map);
 
 var states = [{
         type: 'Feature',

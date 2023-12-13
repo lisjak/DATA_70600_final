@@ -2490,8 +2490,7 @@ const nychaHousing = {
       40.685827817771
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
-    "FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -2522,7 +2521,7 @@ const nychaHousing = {
       40.7182430408996
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -2553,7 +2552,7 @@ const nychaHousing = {
       40.7180683200015
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -2584,7 +2583,7 @@ const nychaHousing = {
       40.7174442527032
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -2615,7 +2614,7 @@ const nychaHousing = {
       40.7172878992285
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -2646,7 +2645,7 @@ const nychaHousing = {
       40.716804635518
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -2677,7 +2676,7 @@ const nychaHousing = {
       40.7166436805026
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -2708,7 +2707,7 @@ const nychaHousing = {
       40.7159179900428
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -2739,7 +2738,7 @@ const nychaHousing = {
       40.7157524386238
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -2770,7 +2769,7 @@ const nychaHousing = {
       40.716391143906
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -2801,7 +2800,7 @@ const nychaHousing = {
       40.7161842232737
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 6,
     "BOROUGH": "MANHATTAN",
@@ -2832,7 +2831,7 @@ const nychaHousing = {
       40.7162764069284
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 6,
     "BOROUGH": "MANHATTAN",
@@ -2863,7 +2862,7 @@ const nychaHousing = {
       40.716106281967
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 7,
     "BOROUGH": "MANHATTAN",
@@ -2894,7 +2893,7 @@ const nychaHousing = {
       40.7172266362973
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 7,
     "BOROUGH": "MANHATTAN",
@@ -2925,7 +2924,7 @@ const nychaHousing = {
       40.7170748800714
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 8,
     "BOROUGH": "MANHATTAN",
@@ -2956,7 +2955,7 @@ const nychaHousing = {
       40.7179186514213
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 8,
     "BOROUGH": "MANHATTAN",
@@ -2987,7 +2986,7 @@ const nychaHousing = {
       40.7177577010491
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 9,
     "BOROUGH": "MANHATTAN",
@@ -3018,7 +3017,7 @@ const nychaHousing = {
       40.7188282611084
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 9,
     "BOROUGH": "MANHATTAN",
@@ -3049,7 +3048,7 @@ const nychaHousing = {
       40.7186627332937
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 10,
     "BOROUGH": "MANHATTAN",
@@ -3080,7 +3079,7 @@ const nychaHousing = {
       40.7186542199522
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 10,
     "BOROUGH": "MANHATTAN",
@@ -3111,7 +3110,7 @@ const nychaHousing = {
       40.7184840948793
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 11,
     "BOROUGH": "MANHATTAN",
@@ -3142,7 +3141,7 @@ const nychaHousing = {
       40.7177652124095
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 11,
     "BOROUGH": "MANHATTAN",
@@ -3173,7 +3172,7 @@ const nychaHousing = {
       40.7175950826623
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 12,
     "BOROUGH": "MANHATTAN",
@@ -3204,7 +3203,7 @@ const nychaHousing = {
       40.7168558753309
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 12,
     "BOROUGH": "MANHATTAN",
@@ -3235,7 +3234,7 @@ const nychaHousing = {
       40.7167409258688
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 13,
     "BOROUGH": "MANHATTAN",
@@ -3266,7 +3265,7 @@ const nychaHousing = {
       40.7165995943127
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 13,
     "BOROUGH": "MANHATTAN",
@@ -3297,7 +3296,7 @@ const nychaHousing = {
       40.7164294571608
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 14,
     "BOROUGH": "MANHATTAN",
@@ -3328,7 +3327,7 @@ const nychaHousing = {
       40.716864363381
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 14,
     "BOROUGH": "MANHATTAN",
@@ -3359,7 +3358,7 @@ const nychaHousing = {
       40.716712629809
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 15,
     "BOROUGH": "MANHATTAN",
@@ -3390,7 +3389,7 @@ const nychaHousing = {
       40.7181868611451
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 15,
     "BOROUGH": "MANHATTAN",
@@ -3421,7 +3420,7 @@ const nychaHousing = {
       40.718035123422
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 16,
     "BOROUGH": "MANHATTAN",
@@ -3452,7 +3451,7 @@ const nychaHousing = {
       40.718856639266
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 16,
     "BOROUGH": "MANHATTAN",
@@ -3483,7 +3482,7 @@ const nychaHousing = {
       40.7187048882775
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 17,
     "BOROUGH": "MANHATTAN",
@@ -3514,7 +3513,7 @@ const nychaHousing = {
       40.7193320233042
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
+    "DEVELOPMENT": "BARUCH",
     "TDS #": 60,
     "BUILDING #": 17,
     "BOROUGH": "MANHATTAN",
