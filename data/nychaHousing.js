@@ -55470,7 +55470,7 @@ const nychaHousing = {
       40.6751020071508
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LA GUARDIA",
+    "DEVELOPMENT": "LA GUARDIA","FLOODRISK": "YES",
     "TDS #": 76,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -55501,7 +55501,7 @@ const nychaHousing = {
       40.7123283617922
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LA GUARDIA",
+    "DEVELOPMENT": "LA GUARDIA","FLOODRISK": "YES",
     "TDS #": 76,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -55532,7 +55532,7 @@ const nychaHousing = {
       40.7116273382347
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LA GUARDIA",
+    "DEVELOPMENT": "LA GUARDIA","FLOODRISK": "YES",
     "TDS #": 76,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -55563,7 +55563,7 @@ const nychaHousing = {
       40.7117571343876
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LA GUARDIA",
+    "DEVELOPMENT": "LA GUARDIA","FLOODRISK": "YES",
     "TDS #": 76,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -55594,7 +55594,7 @@ const nychaHousing = {
       40.7118363639027
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "LA GUARDIA",
+    "DEVELOPMENT": "LA GUARDIA","FLOODRISK": "YES",
     "TDS #": 76,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -55755,7 +55755,7 @@ const nychaHousing = {
     "BOROUGH": "MANHATTAN",
     "HOUSE #": 282,
     "STREET": "CHERRY STREET",
-    "ADDRESS": "282 CHERRY STREET",
+    "ADDRESS": "282 CHERRY STREET","FLOODRISK": "YES",
     "CITY": "NEW YORK",
     "STATE": "NY",
     "ZIP CODE": 10002,

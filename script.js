@@ -940,14 +940,14 @@ L.control
         collapsed: false,
         symbolWidth: 50,
         legends: [{
-                label: 'Sea Levels 2020s',
+                label: 'Flood Plain 2020s',
                 type: 'polygon',
                 sides: 4,
                 fillColor: 'blue',
                 layers: [sealevel2020s],
             },
             {
-                label: 'Sea Levels 2050s',
+                label: 'Flood Plain 2050s',
                 type: 'polygon',
                 sides: 4,
                 fillColor: 'cyan',
