@@ -131,7 +131,7 @@ var riskMarkerDefault = {
 
 L.geoJSON(nychaHousing, {
         onEachFeature: function(feature, layer) {
-        layer.bindPopup(`<b>Housing development name:</b> ${feature.properties.DEVELOPMENT} <b>Address:</b> ${feature.properties.ADDRESS}`);
+        layer.bindPopup(`<b>Housing development name:</b> ${feature.properties.DEVELOPMENT} <br><b>Address:</b> ${feature.properties.ADDRESS}`);
     },
  pointToLayer: function (feature, latlng) {
     switch (feature.properties.FLOODRISK) {
@@ -153,50 +153,6 @@ L.geoJSON(nychaHousing, {
 // })
 //.addTo(map);
 
-var states = [{
-        type: 'Feature',
-        properties: { party: 'Republican' },
-        geometry: {
-            type: 'Polygon',
-            coordinates: [
-                [
-                    [-104.05, 48.99],
-                    [-97.22, 48.98],
-                    [-96.58, 45.94],
-                    [-104.03, 45.94],
-                    [-104.05, 48.99],
-                ],
-            ],
-        },
-    },
-    {
-        type: 'Feature',
-        properties: { party: 'Democrat' },
-        geometry: {
-            type: 'Polygon',
-            coordinates: [
-                [
-                    [-109.05, 41.0],
-                    [-102.06, 40.99],
-                    [-102.03, 36.99],
-                    [-109.04, 36.99],
-                    [-109.05, 41.0],
-                ],
-            ],
-        },
-    },
-];
-
-L.geoJSON(states, {
-    style: function(feature) {
-        switch (feature.properties.party) {
-            case 'Republican':
-                return { color: '#ff0000' };
-            case 'Democrat':
-                return { color: '#0000ff' };
-        }
-    },
-}).addTo(map);
 
 // var housing_geojsonLayer = new L.GeoJSON.AJAX("/data/housing.geojson");
 
