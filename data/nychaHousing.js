@@ -2491,7 +2491,6 @@ const nychaHousing = {
  ] } },
   { "type": "Feature", "properties": { 
     "DEVELOPMENT": "BARUCH","FLOODRISK": "YES",
-    "FLOODRISK": "YES",
     "TDS #": 60,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -13558,7 +13557,7 @@ const nychaHousing = {
       40.7892777263743
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CARVER","FLOODRISK": "YES",
+    "DEVELOPMENT": "CARVER",
     "TDS #": 58,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -13651,7 +13650,7 @@ const nychaHousing = {
       40.7903610924958
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CARVER","FLOODRISK": "YES",
+    "DEVELOPMENT": "CARVER",
     "TDS #": 58,
     "BUILDING #": 6,
     "BOROUGH": "MANHATTAN",
@@ -13682,7 +13681,7 @@ const nychaHousing = {
       40.790603953672
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CARVER","FLOODRISK": "YES",
+    "DEVELOPMENT": "CARVER",
     "TDS #": 58,
     "BUILDING #": 7,
     "BOROUGH": "MANHATTAN",
@@ -13744,7 +13743,7 @@ const nychaHousing = {
       40.7916085250769
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CARVER","FLOODRISK": "YES",
+    "DEVELOPMENT": "CARVER",
     "TDS #": 58,
     "BUILDING #": 9,
     "BOROUGH": "MANHATTAN",
@@ -79837,6 +79836,7 @@ const nychaHousing = {
  ] } },
   { "type": "Feature", "properties": { 
     "DEVELOPMENT": "RANGEL",
+    "FLOODRISK": "YES",
     "TDS #": 37,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -79868,6 +79868,7 @@ const nychaHousing = {
  ] } },
   { "type": "Feature", "properties": { 
     "DEVELOPMENT": "RANGEL",
+    "FLOODRISK": "YES",
     "TDS #": 37,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -79899,6 +79900,7 @@ const nychaHousing = {
  ] } },
   { "type": "Feature", "properties": { 
     "DEVELOPMENT": "RANGEL",
+    "FLOODRISK": "YES",
     "TDS #": 37,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -79930,6 +79932,7 @@ const nychaHousing = {
  ] } },
   { "type": "Feature", "properties": { 
     "DEVELOPMENT": "RANGEL",
+    "FLOODRISK": "YES",
     "TDS #": 37,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -79961,6 +79964,7 @@ const nychaHousing = {
  ] } },
   { "type": "Feature", "properties": { 
     "DEVELOPMENT": "RANGEL",
+    "FLOODRISK": "YES",
     "TDS #": 37,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -79992,6 +79996,7 @@ const nychaHousing = {
  ] } },
   { "type": "Feature", "properties": { 
     "DEVELOPMENT": "RANGEL",
+    "FLOODRISK": "YES",
     "TDS #": 37,
     "BUILDING #": 6,
     "BOROUGH": "MANHATTAN",
@@ -80023,6 +80028,7 @@ const nychaHousing = {
  ] } },
   { "type": "Feature", "properties": { 
     "DEVELOPMENT": "RANGEL",
+    "FLOODRISK": "YES",
     "TDS #": 37,
     "BUILDING #": 7,
     "BOROUGH": "MANHATTAN",
@@ -80054,6 +80060,7 @@ const nychaHousing = {
  ] } },
   { "type": "Feature", "properties": { 
     "DEVELOPMENT": "RANGEL",
+    "FLOODRISK": "YES",
     "TDS #": 37,
     "BUILDING #": 8,
     "BOROUGH": "MANHATTAN",
@@ -80085,6 +80092,7 @@ const nychaHousing = {
  ] } },
   { "type": "Feature", "properties": { 
     "DEVELOPMENT": "RANGEL",
+    "FLOODRISK": "YES",
     "TDS #": 37,
     "BUILDING #": 8,
     "BOROUGH": "MANHATTAN",
@@ -87927,7 +87935,7 @@ const nychaHousing = {
       40.8126753133034
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -87958,7 +87966,7 @@ const nychaHousing = {
       40.8201020466152
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -87989,7 +87997,7 @@ const nychaHousing = {
       40.8201724401859
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -88020,7 +88028,7 @@ const nychaHousing = {
       40.8202379270288
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -88051,7 +88059,7 @@ const nychaHousing = {
       40.8203910120223
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -88082,7 +88090,7 @@ const nychaHousing = {
       40.8204496610619
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 6,
     "BOROUGH": "MANHATTAN",
@@ -88175,7 +88183,7 @@ const nychaHousing = {
       40.8205477174529
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 9,
     "BOROUGH": "MANHATTAN",
@@ -88206,7 +88214,7 @@ const nychaHousing = {
       40.8206500724369
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 10,
     "BOROUGH": "MANHATTAN",
@@ -88237,7 +88245,7 @@ const nychaHousing = {
       40.8227155371982
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 11,
     "BOROUGH": "MANHATTAN",
@@ -88268,7 +88276,7 @@ const nychaHousing = {
       40.8226270201645
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 12,
     "BOROUGH": "MANHATTAN",
@@ -88299,7 +88307,7 @@ const nychaHousing = {
       40.8225315682881
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 13,
     "BOROUGH": "MANHATTAN",
@@ -88330,7 +88338,7 @@ const nychaHousing = {
       40.8224291283447
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 14,
     "BOROUGH": "MANHATTAN",
@@ -88578,7 +88586,7 @@ const nychaHousing = {
       40.8199950100588
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 22,
     "BOROUGH": "MANHATTAN",
@@ -88640,7 +88648,7 @@ const nychaHousing = {
       40.8198411199825
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 24,
     "BOROUGH": "MANHATTAN",
@@ -88671,7 +88679,7 @@ const nychaHousing = {
       40.8197479046433
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 25,
     "BOROUGH": "MANHATTAN",
@@ -88702,7 +88710,7 @@ const nychaHousing = {
       40.8196910512834
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 26,
     "BOROUGH": "MANHATTAN",
@@ -88733,7 +88741,7 @@ const nychaHousing = {
       40.8189174153944
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 27,
     "BOROUGH": "MANHATTAN",
@@ -88764,7 +88772,7 @@ const nychaHousing = {
       40.8188280754069
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 28,
     "BOROUGH": "MANHATTAN",
@@ -88795,7 +88803,7 @@ const nychaHousing = {
       40.8190170330315
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 29,
     "BOROUGH": "MANHATTAN",
@@ -88826,7 +88834,7 @@ const nychaHousing = {
       40.8192346482365
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 30,
     "BOROUGH": "MANHATTAN",
@@ -88888,7 +88896,7 @@ const nychaHousing = {
       40.8193079677957
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 32,
     "BOROUGH": "MANHATTAN",
@@ -89105,7 +89113,7 @@ const nychaHousing = {
       40.818699077219
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 44,
     "BOROUGH": "MANHATTAN",
@@ -89136,7 +89144,7 @@ const nychaHousing = {
       40.8170769720038
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "SAMUEL (CITY)",
+    "DEVELOPMENT": "SAMUEL (CITY)","FLOODRISK": "YES",
     "TDS #": 377,
     "BUILDING #": 45,
     "BOROUGH": "MANHATTAN",

@@ -15,6 +15,7 @@ for (i = 0; i < coll.length; i++) {
 }
 
 
+
 console.log('loaded');
 
 let map = L.map('map', {
@@ -22,6 +23,24 @@ let map = L.map('map', {
 }).setView([40.7, -74.0], 12)
 
 map.zoomControl.setPosition('topright');
+
+// circleMarker.on('click', function(e){
+//     map.setView(e.latlng, 18);
+// });
+
+// function onMapClick(e) {
+//     var popup = L.popup()
+//     .setLatLng(e.latlng)
+//     // .setContent("<table><tr><td>Cell 1</td><td>Cell 2</td></tr></table>")
+//     .openOn(map);
+//     var lat = marker.getLatLng().lat;
+//     var lng = marker.getLatLng().lng;
+//     // var myWindow = window.open('child.html?lat=' + lat + '&lng=' + lng, "MsgWindow", "width=200,height=100");
+// };
+
+//  function flyToLatLng(lat, lng) {
+//     map.flyTo([lat, lng], 20);
+//  };
 
 let basemap_urls = {
     toner: 'https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.png',
@@ -110,7 +129,7 @@ console.log(nyc.data)
 // });
 
 var riskMarkerYes = {
-    radius: 10,
+    radius: 6,
     fillColor: "blue",
     color: "white",
     weight: 0.5,
@@ -129,7 +148,7 @@ var riskMarkerDefault = {
 };
 
 
-L.geoJSON(nychaHousing, {
+let housingPointLayer = L.geoJSON(nychaHousing, {
         onEachFeature: function(feature, layer) {
         layer.bindPopup(`<b>Housing development name:</b> ${feature.properties.DEVELOPMENT} <br><b>Address:</b> ${feature.properties.ADDRESS}`);
     },
@@ -143,6 +162,10 @@ L.geoJSON(nychaHousing, {
     }
 }
 ).addTo(map).bringToBack();
+
+housingPointLayer.on('click', function(e) {
+      map.flyTo(e.latlng, 16);      
+});
 
 
 // show each borough on the map
