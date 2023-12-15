@@ -13496,7 +13496,7 @@ const nychaHousing = {
       40.5911076267643
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CARVER","FLOODRISK": "YES",
+    "DEVELOPMENT": "CARVER",
     "TDS #": 58,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -13527,7 +13527,7 @@ const nychaHousing = {
       40.7890278558549
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CARVER","FLOODRISK": "YES",
+    "DEVELOPMENT": "CARVER",
     "TDS #": 58,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -13589,7 +13589,7 @@ const nychaHousing = {
       40.7900427701377
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CARVER","FLOODRISK": "YES",
+    "DEVELOPMENT": "CARVER",
     "TDS #": 58,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -13620,7 +13620,7 @@ const nychaHousing = {
       40.7896592552265
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CARVER","FLOODRISK": "YES",
+    "DEVELOPMENT": "CARVER",
     "TDS #": 58,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -13713,7 +13713,7 @@ const nychaHousing = {
       40.7910487004614
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CARVER","FLOODRISK": "YES",
+    "DEVELOPMENT": "CARVER",
     "TDS #": 58,
     "BUILDING #": 8,
     "BOROUGH": "MANHATTAN",
@@ -22672,7 +22672,7 @@ const nychaHousing = {
       40.7180616466064
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "CORSI HOUSES",
+    "DEVELOPMENT": "CORSI HOUSES","FLOODRISK": "YES",
     "TDS #": 199,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -28407,7 +28407,7 @@ const nychaHousing = {
       40.7865151124609
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "EAST RIVER","FLOODRISK": "YES",
+    "DEVELOPMENT": "EAST RIVER",
     "TDS #": 9,
     "BUILDING #": 10,
     "BOROUGH": "MANHATTAN",
@@ -31197,7 +31197,7 @@ const nychaHousing = {
       40.7488350940082
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "ELLIOTT","FLOODRISK": "YES",
+    "DEVELOPMENT": "ELLIOTT",
     "TDS #": 15,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -31228,7 +31228,7 @@ const nychaHousing = {
       40.749209399383
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "ELLIOTT","FLOODRISK": "YES",
+    "DEVELOPMENT": "ELLIOTT",
     "TDS #": 15,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -98808,7 +98808,7 @@ const nychaHousing = {
       40.7990728618451
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "TAFT",
+    "DEVELOPMENT": "TAFT","FLOODRISK": "YES",
     "TDS #": 97,
     "BUILDING #": 6,
     "BOROUGH": "MANHATTAN",
@@ -98839,7 +98839,7 @@ const nychaHousing = {
       40.7987817230149
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "TAFT",
+    "DEVELOPMENT": "TAFT","FLOODRISK": "YES",
     "TDS #": 97,
     "BUILDING #": 7,
     "BOROUGH": "MANHATTAN",
@@ -98873,7 +98873,7 @@ const nychaHousing = {
     "DEVELOPMENT": "TAFT",
     "TDS #": 97,
     "BUILDING #": 8,
-    "BOROUGH": "MANHATTAN",
+    "BOROUGH": "MANHATTAN","FLOODRISK": "YES",
     "HOUSE #": 65,
     "STREET": "EAST 112TH STREET",
     "ADDRESS": "65 EAST 112TH STREET",
@@ -98901,7 +98901,7 @@ const nychaHousing = {
       40.7973870009058
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "TAFT",
+    "DEVELOPMENT": "TAFT","FLOODRISK": "YES",
     "TDS #": 97,
     "BUILDING #": 9,
     "BOROUGH": "MANHATTAN",
@@ -106713,7 +106713,7 @@ const nychaHousing = {
       40.713318026162
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 1,
     "BOROUGH": "MANHATTAN",
@@ -106744,7 +106744,7 @@ const nychaHousing = {
       40.7973928302755
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 2,
     "BOROUGH": "MANHATTAN",
@@ -106775,7 +106775,7 @@ const nychaHousing = {
       40.7976550183396
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 3,
     "BOROUGH": "MANHATTAN",
@@ -106806,7 +106806,7 @@ const nychaHousing = {
       40.7979554044564
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 4,
     "BOROUGH": "MANHATTAN",
@@ -106837,7 +106837,7 @@ const nychaHousing = {
       40.7982798998059
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 5,
     "BOROUGH": "MANHATTAN",
@@ -106868,7 +106868,7 @@ const nychaHousing = {
       40.7981742612713
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 6,
     "BOROUGH": "MANHATTAN",
@@ -106899,7 +106899,7 @@ const nychaHousing = {
       40.7984499207877
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 7,
     "BOROUGH": "MANHATTAN",
@@ -106930,7 +106930,7 @@ const nychaHousing = {
       40.7989681243568
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 8,
     "BOROUGH": "MANHATTAN",
@@ -106961,7 +106961,7 @@ const nychaHousing = {
       40.799242480664
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 9,
     "BOROUGH": "MANHATTAN",
@@ -106992,7 +106992,7 @@ const nychaHousing = {
       40.7994251498022
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 10,
     "BOROUGH": "MANHATTAN",
@@ -107023,7 +107023,7 @@ const nychaHousing = {
       40.7991927087481
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 11,
     "BOROUGH": "MANHATTAN",
@@ -107054,7 +107054,7 @@ const nychaHousing = {
       40.7996006688733
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 12,
     "BOROUGH": "MANHATTAN",
@@ -107085,7 +107085,7 @@ const nychaHousing = {
       40.7997654826563
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 13,
     "BOROUGH": "MANHATTAN",
@@ -107116,7 +107116,7 @@ const nychaHousing = {
       40.8000643428026
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 14,
     "BOROUGH": "MANHATTAN",
@@ -107147,7 +107147,7 @@ const nychaHousing = {
       40.7998107921124
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 15,
     "BOROUGH": "MANHATTAN",
@@ -107178,7 +107178,7 @@ const nychaHousing = {
       40.8001036133537
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 16,
     "BOROUGH": "MANHATTAN",
@@ -107209,7 +107209,7 @@ const nychaHousing = {
       40.8003967958756
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 17,
     "BOROUGH": "MANHATTAN",
@@ -107240,7 +107240,7 @@ const nychaHousing = {
       40.8002207360389
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 18,
     "BOROUGH": "MANHATTAN",
@@ -107271,7 +107271,7 @@ const nychaHousing = {
       40.8005087171883
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 19,
     "BOROUGH": "MANHATTAN",
@@ -107302,7 +107302,7 @@ const nychaHousing = {
       40.8009296534669
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 20,
     "BOROUGH": "MANHATTAN",
@@ -107333,7 +107333,7 @@ const nychaHousing = {
       40.8007900840718
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 21,
     "BOROUGH": "MANHATTAN",
@@ -107364,7 +107364,7 @@ const nychaHousing = {
       40.8010835209332
  ] } },
   { "type": "Feature", "properties": { 
-    "DEVELOPMENT": "WAGNER",
+    "DEVELOPMENT": "WAGNER","FLOODRISK": "YES",
     "TDS #": 74,
     "BUILDING #": 22,
     "BOROUGH": "MANHATTAN",
